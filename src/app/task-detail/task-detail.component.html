@@ -1,0 +1,11 @@
+<body>
+    <br>
+    <div>
+        <h3 class="d" > Task: {{ myTask?.name }}</h3><br>
+        <h3 class="d"> Time it will take: {{ myTask?.timeToComplete }}</h3><br>
+        <h3 class="d"> Description: {{ myTask?.description }}</h3><br>
+        <h3 class="d"> Items needed to complete task: {{myTask?.itemsNeeded}}</h3><br>
+    </div>
+    <a href="http://localhost:4200/list"><button class="btn" (click)="onClickDelete(id)">Delete Task?</button></a>
+    <a [routerLink]="['/edit', myTask?.id]"><button>Edit</button></a>
+</body> 

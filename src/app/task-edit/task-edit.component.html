@@ -1,0 +1,24 @@
+<body>
+<div>
+    <h3>Edit a Task</h3>
+    <form #myForm='ngForm' (ngSubmit)='onSave(myForm)'>
+        <label for='name'>Name:</label>
+        <br>
+        <input for='name' id='name' placeholder='Name' name='name' required [(ngModel)]='editTask.name' />
+        <br>
+        <label for='time'>Estimated time to complete:</label>
+        <br>
+        <input for='Time' id='time' placeholder='Time' name='time' required [(ngModel)]='editTask.timeToComplete' />
+        <br>
+        <label for='description'>Description of task:</label>
+        <br>
+        <input for='description' id='description' placeholder='Description' name='description' required [(ngModel)]='editTask.description' />
+        <br>
+        <label for='itemsNeeded'>Items Needed to complete task:</label>
+        <br>
+        <textarea for='itemsNeeded' id='itemsNeeded' placeholder='Items' name='itemsNeeded' required [(ngModel)]='editTask.itemsNeeded'></textarea>
+        <br>
+        <button class="btn" type='submit'>Save</button>
+    </form>
+</div>
+</body>
