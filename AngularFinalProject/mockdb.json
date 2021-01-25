@@ -1,0 +1,25 @@
+{
+  "task": [
+    {
+      "name": "Finish Angular Final Project",
+      "timeToComplete": "500000 hours",
+      "description": "A long and quite difficult task that may leave the user frustrated at times!",
+      "itemsNeeded": "Patience, Big Brain, Help from Bob",
+      "id": 1
+    },
+    {
+      "name": "Mow the Lawn",
+      "timeToComplete": "12 hours",
+      "description": "There will be sweat!",
+      "itemsNeeded": "A very sharp blade,\nand a magnifying glass.",
+      "id": 2
+    },
+    {
+      "name": "mmmmmmmmm",
+      "timeToComplete": "mmmmmmmm",
+      "description": "mmmmmmmm",
+      "itemsNeeded": "mmmmmmmmmm",
+      "id": 3
+    }
+  ]
+}
